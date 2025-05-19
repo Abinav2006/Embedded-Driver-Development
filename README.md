@@ -32,23 +32,23 @@ This repository showcases bare-metal peripheral driver development for the STM32
 - Serial Terminal (PuTTY, Tera Term, etc.)
 
 ## 📁 Folder Structure
-│
-├── Core/
-│   ├── Inc/                   → Main application headers (e.g., main.h)
-│   ├── Src/                   → Main application source files (e.g., main.c)
-│   └── startup_stm32f446xx.s → Startup assembly code for STM32F446RE
-│
-├── Drivers/
-│   ├── Inc/                   → Custom driver headers (e.g., gpio.h, uart.h)
-│   ├── Src/                   → Custom driver source files (e.g., gpio.c, uart.c)
-│
-├── ProjectConfigs/
-│   ├── .project               → STM32CubeIDE project configuration
-│   ├── .cproject              → STM32CubeIDE build settings
-│   └── STM32F446RE.ioc        → STM32CubeMX IOC file for peripheral setup
-│
-├── LICENSE                   → License file (MIT, Apache, etc.)
-└── README.md                 → This project overview and documentation
+│<br>
+├── Core/<br>
+│   ├── Inc/                   → Main application headers (e.g., main.h)<br>
+│   ├── Src/                   → Main application source files (e.g., main.c)<br>
+│   └── startup_stm32f446xx.s → Startup assembly code for STM32F446RE<br>
+│<br>
+├── Drivers/<br>
+│   ├── Inc/                   → Custom driver headers (e.g., gpio.h, uart.h)<br>
+│   ├── Src/                   → Custom driver source files (e.g., gpio.c, uart.c)<br>
+│<br>
+├── ProjectConfigs/<br>
+│   ├── .project               → STM32CubeIDE project configuration<br>
+│   ├── .cproject              → STM32CubeIDE build settings<br>
+│   └── STM32F446RE.ioc        → STM32CubeMX IOC file for peripheral setup<br>
+│<br>
+├── LICENSE                   → License file (MIT, Apache, etc.)<br>
+└── README.md                 → This project overview and documentation<br>
 
 ## 📜 License
 
